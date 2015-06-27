@@ -1,0 +1,18 @@
+---
+:source:
+  :path: test
+  :file: test_FindElem.c
+:successes:
+- :test: test_findElement
+  :line: 11
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout:
+- data value:1
+- ''
