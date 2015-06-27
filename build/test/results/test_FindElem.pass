@@ -6,13 +6,27 @@
 - :test: test_findElement
   :line: 11
   :message: ''
+- :test: test_intCompare
+  :line: 57
+  :message: ''
+- :test: test_strCompare
+  :line: 66
+  :message: ''
+- :test: test_findElement_given_string
+  :line: 76
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 1
-  :passed: 1
+  :total: 4
+  :passed: 4
   :failed: 0
   :ignored: 0
 :stdout:
 - data value:1
+- 'str first: abc'
+- 'str second: abc'
+- 'str first: abc'
+- 'str second: abd'
+- data value:1920298854
 - ''
