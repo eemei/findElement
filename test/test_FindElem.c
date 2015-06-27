@@ -47,8 +47,8 @@ void test_findElement(){
   //TEST_ASSERT_EQUAL (list->head->next->data, &value7);
   // TEST_ASSERT_EQUAL (list->head->next->next, &value1);
 
-  // TEST_ASSERT_NOT_NULL(elem);
-  // TEST_ASSERT_NOT_NULL(elem->data);
+  TEST_ASSERT_NOT_NULL(elem);
+  TEST_ASSERT_NOT_NULL(elem->data);
   TEST_ASSERT_EQUAL(1, *(int *)(elem->data));
   ////TEST_ASSERT_EQUAL (list->head->data, &value1);
  

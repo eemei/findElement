@@ -91,9 +91,9 @@ void test_findElement(){
 
 
 
+  if ((((elem)) != ((void *)0))) {} else {UnityFail( (" Expected Non-NULL"), (_U_UINT)(_U_UINT)(_U_UINT)50);;};
 
-
-
+  if ((((elem->data)) != ((void *)0))) {} else {UnityFail( (" Expected Non-NULL"), (_U_UINT)(_U_UINT)(_U_UINT)51);;};
 
   UnityAssertEqualNumber((_U_SINT)((1)), (_U_SINT)((*(int *)(elem->data))), (((void *)0)), (_U_UINT)52, UNITY_DISPLAY_STYLE_INT);
 
